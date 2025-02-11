@@ -66,13 +66,11 @@ Visit the Amazon Bedrock Service page and follow the numbered sequence shown in 
   
    </details>
 
-2. Setup IAM Roles for Bedrock Access [Refer: https://docs.aws.amazon.com/bedrock/latest/userguide/security_iam_id-based-policy-examples.html] and assign it as an EC2 instance profile.
-
-3. Create Private VPC Endpoints for Bedrock Access to test Private Acccess [Refer: https://docs.aws.amazon.com/bedrock/latest/userguide/vpc-interface-endpoints.html]
+2. Create Private VPC Endpoints for Bedrock Access to test Private Acccess [Refer: https://docs.aws.amazon.com/bedrock/latest/userguide/vpc-interface-endpoints.html]
 
    Note: You can control access to VPCe by updating the resource policy to specific Principal and Resources. 
 
-4. Create VPC Peering Connection to test cross region access through VPC EndPoints [Refer: https://repost.aws/knowledge-center/vpc-peering-connection-create]
+3. Create VPC Peering Connection to test cross region access through VPC EndPoints [Refer: https://repost.aws/knowledge-center/vpc-peering-connection-create]
 
    Note: This workshop uses VPC Peering, however, same can be achieved through Transit Gateway setup that overcomes some of VPC Peering Limitations. [Refer: https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/vpc-to-vpc-connectivity.html]
 

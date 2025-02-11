@@ -1,0 +1,23 @@
+2025-02-11 16:10:46,200 - root - encryption.py - INFO - generateKey().decode() is ZekeC_vXek7En2j-ZBrXKTqc-q7_KN8O6Y8dnpZz_qA=
+2025-02-11 16:10:47,583 - root - manageConfig.py - INFO - Configuration initialized from config.properties
+2025-02-11 16:10:47,583 - root - encryptConfig.py - INFO - Generated encryption key
+2025-02-11 16:10:47,583 - root - manageConfig.py - INFO - Set value for SecretKeyFernet in section default to B7pV7DcXybfXSetBxHzr0wcZa3RSKHinRaUKujOGE7w=
+2025-02-11 16:10:47,583 - root - manageConfig.py - INFO - Retrieved value for SecretKeyFernet in section default: B7pV7DcXybfXSetBxHzr0wcZa3RSKHinRaUKujOGE7w=
+2025-02-11 16:10:47,589 - root - manageConfig.py - INFO - Set value for AccessKey in section default to Z0FBQUFBQm5xOHJuVThKNlNrRXBYS29JTXVYc1FLdm9INEplczhvMThicHZnWkJMRVJUZ2dUVXlQNzNWLU5pSm44RVVDX3BBUi1MR3BqeWZtcmJfRjNhWmp3eER1M28zbHB0UUtiV2xqRzVtLVI2dDRySUMwTjkzT2pWbWx1azFyRV8wOWloalJpR18=
+2025-02-11 16:10:47,589 - root - encryptConfig.py - INFO - Encrypted and stored AccessKey
+2025-02-11 16:10:47,589 - root - manageConfig.py - INFO - Retrieved value for SecretKey in section default: xxx==
+2025-02-11 16:10:47,590 - root - manageConfig.py - INFO - Set value for SecretKey in section default to Z0FBQUFBQm5xOHJuYk1jRzRCa0hCVUlXazUwdGhVZ2dsWDNTbjU3eWtoeVBTcFZIVENyVFlVWFNIM0NDSEJlUGlfVzcyWXN2WWR2WjBEdVJqSlJtUDZwUlBfa2tMZ0JtUUE9PQ==
+2025-02-11 16:10:47,590 - root - encryptConfig.py - INFO - Encrypted and stored SecretKey
+2025-02-11 16:10:47,590 - root - manageConfig.py - INFO - Retrieved value for AssumeRoleARN in section default: xxxxx==
+2025-02-11 16:10:47,590 - root - manageConfig.py - INFO - Set value for AssumeRoleARN in section default to Z0FBQUFBQm5xOHJuX0d4RTZ5bXp0Z0dySEx6LWpac3BvdTdZZ3RKYWVfZDBKSFZyLXdMNFpQVmtOYk9hNHlVdlNYS0xTMlpESHo2bVVwU2pDY1NBb2NOVWtGaDRBSExHZ1E9PQ==
+2025-02-11 16:10:47,590 - root - encryptConfig.py - INFO - Encrypted and stored AssumeRoleARN
+2025-02-11 16:10:47,590 - root - manageConfig.py - INFO - Retrieved value for VPCEndpointURL in section default: <VPCEndpointURL>
+2025-02-11 16:10:47,591 - root - manageConfig.py - INFO - Set value for VPCEndpointURL in section default to Z0FBQUFBQm5xOHJudDV2MzJabFYtZmV4b05UdmdsSmxNMWRVSF9XQ25vbzdxbHVSWDJyMXNfSUtDT1hDamd3MzcyZ1E1eGdLOVNsY0FhZ19OT09sMU4tWExHMnlwcG5qQ1Q2OXdrZHdUSFpwVUxJNmtKZnFERFU9
+2025-02-11 16:10:47,591 - root - encryptConfig.py - INFO - Encrypted and stored VPCEndpointURL
+2025-02-11 16:10:47,591 - root - manageConfig.py - ERROR - Failed to write config to : [Errno 2] No such file or directory: ''
+2025-02-11 16:10:47,591 - root - encryptConfig.py - ERROR - Configuration file not found: [Errno 2] No such file or directory: ''
+2025-02-11 16:11:26,724 - root - encryption.py - INFO - generateKey().decode() is K1qLTvMFBsmZ8Y1mLjya-WQGoL9qcSyaAPkrTs90WwM=
+2025-02-11 16:11:53,070 - root - manageConfig.py - INFO - Configuration initialized from config-iginal.properties
+2025-02-11 16:11:53,070 - root - encryptConfig.py - INFO - Generated encryption key
+2025-02-11 16:11:53,070 - root - manageConfig.py - ERROR - Failed to set value in config: No section: 'default'
+2025-02-11 16:11:53,070 - root - encryptConfig.py - ERROR - Unexpected error occurred: No section: 'default'
